@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-container">
+            <fieldset class="form-group">
+                <div class="form-group-title">
+                    <h4>Ваши личные данные</h4>
+                </div>
+                <div>
+                    <label>
+                        Ваше имя
+                    </label>
+                </div>
+                <div>
+                        <input type="text" placeholder="Имя" name="name" required>
+                </div>
+                <div>
+                    <label>
+                        Ваш возраст
+                    </label>
+                </div>
+                <div>
+                        <input type="number" inputmode="numeric" placeholder="Возраст" name="age" required>
+                </div>
+                <div>
+                    <label>
+                        Ваш номер телефона
+                        </label>
+                </div>
+                <div>
+                        <input type="tel" inputmode="tel" placeholder="Номер телефона" name="phone" required>
+                </div>
+                <div>
+                    <label>
+                        Ваша почта
+                    </label>
+                </div>
+                <div>
+                        <input type="email" inputmode="email" placeholder="Почта" name="email" required>
+                </div>
+            </fieldset>
+            <fieldset class="form-group"></fieldset>
+            <div>
+                <label>
+                    Сообщение
+                </label>
+            </div>
+            <div>
+                    <textarea name="message" placeholder="Ваше сообщение"></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms" class="checkbox-text">
+                    Я принимаю правила
+                </label>
+            </div>
+    </div>
+    </fieldset>
+    <button class="button">Отправить</button>
+    </form>
+</body>
+
+</html>

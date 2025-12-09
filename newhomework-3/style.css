@@ -1,0 +1,18 @@
+
+
+.form-container {
+    border: 1px solid #2d1c09;
+    background-color: rgb(237, 176, 122);
+    width: 200px;
+    padding: 10px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 200px;
+}
+
+
+.button {
+    cursor: pointer;
+}
