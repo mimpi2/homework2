@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Futura;
+  src: local("Futura Bk BT Book"), local("Futura Bk BT-Book"),
+    url("../../fonts/futurabkbtrusbyme_book.otf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/Inter-Regular.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura;
+  src: local("Futura LtCn BT Light"), local("Futura LtCn BT-Light"),
+    url("../../fonts/futura-ltcn-bt-light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
