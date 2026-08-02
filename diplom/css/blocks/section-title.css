@@ -1,0 +1,11 @@
+.section-title {
+  font-size: clamp(34px, 5vw, 48px);
+  line-height: 1.05;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.section-title__accent {
+  color: #e60012;
+}

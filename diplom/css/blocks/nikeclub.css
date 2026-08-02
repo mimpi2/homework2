@@ -1,0 +1,134 @@
+.nikeclub {
+  position: relative;
+  z-index: 2;
+  padding: 80px 40px 105px;
+  background-color: #000000;
+}
+
+.nikeclub__container {
+  position: relative;
+  max-width: 1080px;
+  min-height: 235px;
+  margin: 0 auto;
+  padding: 55px 360px 50px 36px;
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 6px;
+  overflow: visible;
+}
+
+.nikeclub__content {
+  position: relative;
+  z-index: 3;
+}
+
+.nikeclub__title {
+  margin-bottom: 15px;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.05;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.nikeclub__text {
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.nikeclub__button {
+  min-width: 112px;
+}
+
+.nikeclub__logo {
+  position: absolute;
+  top: 72px;
+  right: 120px;
+  z-index: 2;
+  width: 175px;
+  filter: brightness(0) invert(1);
+}
+
+.nikeclub__shoe {
+  position: absolute;
+  right: -95px;
+  bottom: -120px;
+  z-index: 1;
+  width: 500px;
+  max-width: none;
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .nikeclub {
+    padding: 70px 32px 95px;
+  }
+
+  .nikeclub__container {
+    padding: 46px 290px 44px 32px;
+  }
+
+  .nikeclub__logo {
+    right: 90px;
+    width: 145px;
+  }
+
+  .nikeclub__shoe {
+    right: -85px;
+    bottom: -95px;
+    width: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nikeclub {
+    padding: 55px 18px 70px;
+  }
+
+  .nikeclub__container {
+    min-height: 430px;
+    padding: 34px 22px 215px;
+    text-align: center;
+  }
+
+  .nikeclub__title {
+    font-size: 28px;
+  }
+
+  .nikeclub__text {
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+
+  .nikeclub__logo {
+    top: auto;
+    right: 50%;
+    bottom: 130px;
+    width: 130px;
+    transform: translateX(50%);
+  }
+
+  .nikeclub__shoe {
+    right: 50%;
+    bottom: -58px;
+    width: 335px;
+    transform: translateX(50%);
+  }
+}
+
+@media (max-width: 420px) {
+  .nikeclub__container {
+    min-height: 400px;
+    padding-bottom: 195px;
+  }
+
+  .nikeclub__title {
+    font-size: 24px;
+  }
+
+  .nikeclub__shoe {
+    width: 300px;
+  }
+}

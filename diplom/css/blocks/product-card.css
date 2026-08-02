@@ -1,0 +1,32 @@
+.product-card {
+  position: relative;
+  text-align: center;
+}
+
+.product-card::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 22px;
+  margin: -18px auto 0;
+  background: linear-gradient(180deg, #2b2b2b, #111111);
+  transform: perspective(120px) rotateX(55deg);
+}
+
+.product-card__image {
+  position: relative;
+  z-index: 2;
+  height: 150px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.product-card__title {
+  position: relative;
+  z-index: 3;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
